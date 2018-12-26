@@ -27,7 +27,7 @@ html {
 
 header {
  font-size: 2rem;
- background-image: linear-gradient(to right, #000000b9, rgba(85, 85, 85, 0.575)) ,url("files/OmnifoodContents/hero.png");
+ background-image: linear-gradient(to right, #000000b9, rgba(85, 85, 85, 0.575)) ,url("/files/OmnifoodContents/hero.jpg");
  background-size: cover;
  background-position: center;
  height: 95vh;
