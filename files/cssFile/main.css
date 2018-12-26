@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Thasadith', sans-serif;
+    background-color: #f7f7f7;
+    color: #555;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix {
+    content: ""; 
+    clear: both;
+    display: block;
+    height: 0; 
+}
+
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+ font-size: 2rem;
+ background-image: linear-gradient(to right, #000000b9, rgba(85, 85, 85, 0.575)) ,url(/files/Omnifood\ Contents/hero.jpg);
+ background-size: cover;
+ background-position: center;
+ height: 95vh;
+ position: relative;
+}
+
+.text-box-header{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+h1 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    word-spacing: 5px;
+    animation: styleListHeader 3s ease-in-out;
+}
+
+.btn:link,
+.btn:visited {
+text-decoration: none;
+display: inline-block;
+padding: 10px 30px;
+font-size: 0.8em;
+border-radius: 100px;
+margin-top: 2rem;
+transition: all .4s;
+animation: styleList 1s ease-in;
+}
+
+.btn-full:link,
+.btn-full:visited {
+color: white;
+border: 1px solid #e67e22;
+background-color: #e67e22;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #e67e22;
+    border: 1px solid #e67e22;
+}
+
+.btn-full:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.btn-ghost:hover {
+background-color: #e67e22;
+color: white;
+}
+
+.logo {
+    padding-right: 10px;
+    background-color: rgb(131, 131, 131);
+    height: 10rem;
+    float: left;
+    border-bottom-right-radius: 55%;
+}
+
+.mob {
+    display: none;
+}
+.burger{
+    display: none !important;
+    position: absolute;
+    right: 10px;
+    top: 5.5rem;
+    color: #e67e22;
+    font-size: 40px;
+    display: none;
+    text-shadow: 2px 2px 4px black;
+}
+
+.main-nav {
+    margin-top: 5rem;
+    padding-right: 4%;
+    list-style: none;
+    float: right;
+    
+}
+
+.main-nav li {
+display: inline-block;
+margin-left: 5rem;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.8s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 1.5rem;
+}
+
+.main-nav li a:hover {
+border-bottom: 2px solid #e67e22;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;   
+}
+
+h2:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 30px; 
+
+}
+ 
+.long-copy {
+    font-size: 2.5rem;
+    line-height: 150%;
+    text-align: center;
+    margin: 2% 0;
+}
+
+.box {
+    padding: 0 2%;
+}
+
+.box p {
+    font-size: 2rem;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+h3 {  
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.box .icon-big {
+    display: block;
+    font-size: 7rem;
+    padding-left: 20%;
+    padding-bottom: 9%;
+    color: #e67e22;
+    
+}
+
+.section-meals{
+    padding: 0;
+}
+
+.meals-showcase {
+list-style: none;
+width: 100%;
+}
+
+.meals-showcase li {
+    float: left;
+    display:block;
+    width: 25%;
+}
+.meal-photo {
+    width: 100%;
+    overflow:hidden;
+    background-color: #000;
+}
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;  
+    transform: scale(1.15);
+    transition: all .6s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.05)
+}
+
+.section-iphone {
+margin-top: 35%;
+background: #f1f1f1;
+}
+.section-iphone h2{
+margin-bottom: 10rem;
+}
+.section-iphone:first-child {
+    text-align: right;
+}
+
+.iphone-img {
+    width: 40%;
+    float: right;
+    margin-right: 20%;
+}
+
+.iphone-tutorial {
+    font-size: 3rem;
+    
+}
+
+.iphone-tutorial h3{
+margin-bottom: 20px;
+}
+
+.iphone-tutorial p{
+    margin: 1rem 0;
+}
+
+.btn-app img{
+    padding-left: 12%;
+    height: 50px;
+    width: auto;
+    margin-top: 3rem;
+}
+
+.section-bullets  {
+    display: inline-block;
+    float: left;
+    border: 2px solid #e67e22;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+.iphone-tutorial p {
+    display: block;
+    margin-left: 6rem;
+}
+
+.section-customers-review {
+    color: white;
+    background-image:linear-gradient( to right bottom, rgba(0, 0, 0, 0.924),rgba(0, 0, 0, 0.678))  ,url(/files/Omnifood\ Contents/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 2rem;
+    
+}
+
+.section-customers-review blockquote {
+font-style: italic;
+padding: 10rem;
+margin-bottom: 50px;
+position:relative;
+}
+
+.section-customers-review blockquote cite {
+    display: block;
+    padding: 9rem 0;
+    
+}
+
+.section-customers-review blockquote cite img {
+    height: 10rem;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.section-customers-review blockquote::before{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: block;
+    font-size: 700%;
+    content: '\201C';
+}
+
+.section-plans {
+
+    font-size: 2rem;
+
+}
+
+.plan-box {
+    background-color: #fff;;
+    width: 90%;
+    text-align: center;
+    padding: 60px;
+    transition: all .2s;
+}
+.plan-box:hover {
+    box-shadow: 0 5px 5px 8px;
+}
+.plan-box h3 {
+    font-size: 200%;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #f1f1f1;
+    color: #e67e22;
+}
+
+.item-price {
+    font-size: 250%;
+    display: block;
+}
+
+.item-discription {
+    padding-top: 1rem;
+}
+.item-discription li{
+    list-style: none; 
+    
+}
+.item-discription span {
+    color: orange;
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .main-nav{ 
+        display: none;
+    }
+
+    .burger {
+        display: block !important;
+        cursor: pointer;
+        position: fixed;
+        z-index: 0;
+        transition: all .3s;
+        
+    }
+
+    .burger:hover {
+        color: white;
+    }
+
+    .main-mob {
+        transition: all 0.8s ease-in;
+    }
+
+
+    .mob {
+        border-top: 1px solid#e67e22;
+        z-index: 1;
+        position: fixed;
+        top: 100px;
+        height: 100vh;
+        width: 100vh;
+        background-color: #000;
+        display: none;
+        
+    }
+    .mob li{
+        left: 0;
+        display: block;
+        margin-top: 13%;
+        animation: styleList .3s ease-in;
+    }
+
+
+    h1 {
+        font-size: 150%;
+    }
+    .box {
+        text-align: center;
+    }
+    .box i{
+        padding-right: 80px;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+  
+    .iphone-img {
+      
+        height: 450px;
+        width: 200px;
+        padding-bottom: 20px;
+    }
+    .section-customers-review blockquote {
+        text-align: center;
+    }
+    .section-customers-review blockquote img {
+        float: right;
+    }
+    .section-customers-review blockquote cite {
+        padding: 40px;
+    }
+
+    
+} 
+
+@keyframes styleList{
+    0% {
+        opacity: 0;
+        transform: translateX(-220px);  
+    }
+    50% {
+        transform: translateX(-300px); 
+    }
+    
+    100% {
+        transform: translate(0)
+        }
+    }
+    @keyframes styleListHeader{
+        0% {
+            opacity: 0;
+            transform: translateY(-500px);  
+        }
+        50% {
+            opacity: 0.5;
+            transform: translateY(20px); 
+        }
+        
+        100% {
+            transform: translate(0)
+            }
+        }
