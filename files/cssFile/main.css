@@ -27,7 +27,7 @@ html {
 
 header {
  font-size: 2rem;
- background-image: linear-gradient(to right, #000000b9, rgba(85, 85, 85, 0.575)) ,url(/files/OmnifoodContents/hero.jpg);
+ background-image: linear-gradient(to right, #000000b9, rgba(85, 85, 85, 0.575)) ,url("files/OmnifoodContents/hero.png");
  background-size: cover;
  background-position: center;
  height: 95vh;
@@ -276,7 +276,7 @@ margin-bottom: 20px;
 
 .section-customers-review {
     color: white;
-    background-image:linear-gradient( to right bottom, rgba(0, 0, 0, 0.924),rgba(0, 0, 0, 0.678))  ,url(/files/Omnifood\ Contents/2.jpg);
+    background-image:linear-gradient( to right bottom, rgba(0, 0, 0, 0.924),rgba(0, 0, 0, 0.678))  ,url(files/Omnifood\ Contents/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
